@@ -1,0 +1,6 @@
+import androidx.lifecycle.ViewModel
+
+class RegisterViewModel(
+    private val registerRepository: RegisterRepository
+): ViewModel() {}
+
